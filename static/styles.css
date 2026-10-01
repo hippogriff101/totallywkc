@@ -1,0 +1,10 @@
+body {
+  text-align: center;
+  background-color: blanchedalmond;
+}
+.newsreader {
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
