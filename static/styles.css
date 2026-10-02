@@ -1,12 +1,44 @@
+:root {
+--navajo-white: #ffdeadff;
+--papaya-whip: #ffebcdff;
+--jasmine: #f8de7eff;
+--powder-blue: #a2add0ff;
+--grey: #333333ff;
+}
+
 body {
   text-align: center;
-  background-color: blanchedalmond;
+  background-color: var(--navajo-white);
   font-family: "Newsreader", serif;
-
+  margin: 0;
+  padding: 0;
 }
-.newsreader {
-  font-family: "Newsreader", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--grey);
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: var(--jasmine);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: var(--powder-blue);
+  color: var(--grey);
 }

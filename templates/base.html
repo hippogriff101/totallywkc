@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}Totally WKC{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>    
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/news">News</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li style="float:right"><a href="#login">LogIn</a></li>
+        </ul>
+    </header>
+
+    <main>{% block content %}{% endblock %}</main>
+    <footer><small>Not associated with BBC or its brand in any way!</small></footer>
+</body>
+</html>
