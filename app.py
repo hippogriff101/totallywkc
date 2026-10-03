@@ -11,9 +11,9 @@ def home():
 def conatct():
     return render_template('contact.html')
 
-@app.route('/news')
-def backup():
-    return render_template('news.html')
+@app.route('/slack')
+def slack():
+    return render_template('slack.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
